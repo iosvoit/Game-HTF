@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFED4F6E1B988C74002694D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4F6D1B988C74002694D2 /* AppDelegate.swift */; };
+		CFED4F701B988C74002694D2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F6F1B988C74002694D2 /* GameScene.sks */; };
+		CFED4F721B988C74002694D2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4F711B988C74002694D2 /* GameScene.swift */; };
+		CFED4F741B988C74002694D2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4F731B988C74002694D2 /* GameViewController.swift */; };
+		CFED4F771B988C74002694D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F751B988C74002694D2 /* Main.storyboard */; };
+		CFED4F791B988C74002694D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F781B988C74002694D2 /* Images.xcassets */; };
+		CFED4F7C1B988C74002694D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F7A1B988C74002694D2 /* LaunchScreen.xib */; };
+		CFED4F881B988C74002694D2 /* HappyTodayFutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4F871B988C74002694D2 /* HappyTodayFutureTests.swift */; };
+		CFED4F921B989739002694D2 /* ShooterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4F911B989739002694D2 /* ShooterScene.swift */; };
+		CFED4F941B9897C0002694D2 /* ShooterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F931B9897C0002694D2 /* ShooterScene.sks */; };
+		CFED4F981B9A1CE2002694D2 /* shooter.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F971B9A1CE2002694D2 /* shooter.atlas */; };
+		CFED4F9B1B9C801F002694D2 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F991B9C801F002694D2 /* bullet.png */; };
+		CFED4FA01B9CCD2E002694D2 /* starball.png in Resources */ = {isa = PBXBuildFile; fileRef = CFED4F9F1B9CCD2E002694D2 /* starball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFED4F821B988C74002694D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFED4F601B988C73002694D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFED4F671B988C74002694D2;
+			remoteInfo = HappyTodayFuture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFED4F681B988C74002694D2 /* HappyTodayFuture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyTodayFuture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFED4F6C1B988C74002694D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFED4F6D1B988C74002694D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFED4F6F1B988C74002694D2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CFED4F711B988C74002694D2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CFED4F731B988C74002694D2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CFED4F761B988C74002694D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFED4F781B988C74002694D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFED4F7B1B988C74002694D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFED4F811B988C74002694D2 /* HappyTodayFutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyTodayFutureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFED4F861B988C74002694D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFED4F871B988C74002694D2 /* HappyTodayFutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTodayFutureTests.swift; sourceTree = "<group>"; };
+		CFED4F911B989739002694D2 /* ShooterScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShooterScene.swift; sourceTree = "<group>"; };
+		CFED4F931B9897C0002694D2 /* ShooterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShooterScene.sks; sourceTree = "<group>"; };
+		CFED4F971B9A1CE2002694D2 /* shooter.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = shooter.atlas; sourceTree = "<group>"; };
+		CFED4F991B9C801F002694D2 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = ../../bullet.png; sourceTree = "<group>"; };
+		CFED4F9F1B9CCD2E002694D2 /* starball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starball.png; path = ../../starball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFED4F651B988C74002694D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED4F7E1B988C74002694D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFED4F5F1B988C73002694D2 = {
+			isa = PBXGroup;
+			children = (
+				CFED4F6A1B988C74002694D2 /* HappyTodayFuture */,
+				CFED4F841B988C74002694D2 /* HappyTodayFutureTests */,
+				CFED4F691B988C74002694D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFED4F691B988C74002694D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFED4F681B988C74002694D2 /* HappyTodayFuture.app */,
+				CFED4F811B988C74002694D2 /* HappyTodayFutureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFED4F6A1B988C74002694D2 /* HappyTodayFuture */ = {
+			isa = PBXGroup;
+			children = (
+				CFED4F6D1B988C74002694D2 /* AppDelegate.swift */,
+				CFED4F6F1B988C74002694D2 /* GameScene.sks */,
+				CFED4F911B989739002694D2 /* ShooterScene.swift */,
+				CFED4F931B9897C0002694D2 /* ShooterScene.sks */,
+				CFED4F711B988C74002694D2 /* GameScene.swift */,
+				CFED4F731B988C74002694D2 /* GameViewController.swift */,
+				CFED4F751B988C74002694D2 /* Main.storyboard */,
+				CFED4F781B988C74002694D2 /* Images.xcassets */,
+				CFED4F7A1B988C74002694D2 /* LaunchScreen.xib */,
+				CFED4F6B1B988C74002694D2 /* Supporting Files */,
+			);
+			path = HappyTodayFuture;
+			sourceTree = "<group>";
+		};
+		CFED4F6B1B988C74002694D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFED4F991B9C801F002694D2 /* bullet.png */,
+				CFED4F9F1B9CCD2E002694D2 /* starball.png */,
+				CFED4F971B9A1CE2002694D2 /* shooter.atlas */,
+				CFED4F6C1B988C74002694D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFED4F841B988C74002694D2 /* HappyTodayFutureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFED4F871B988C74002694D2 /* HappyTodayFutureTests.swift */,
+				CFED4F851B988C74002694D2 /* Supporting Files */,
+			);
+			path = HappyTodayFutureTests;
+			sourceTree = "<group>";
+		};
+		CFED4F851B988C74002694D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFED4F861B988C74002694D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFED4F671B988C74002694D2 /* HappyTodayFuture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFED4F8B1B988C74002694D2 /* Build configuration list for PBXNativeTarget "HappyTodayFuture" */;
+			buildPhases = (
+				CFED4F641B988C74002694D2 /* Sources */,
+				CFED4F651B988C74002694D2 /* Frameworks */,
+				CFED4F661B988C74002694D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyTodayFuture;
+			productName = HappyTodayFuture;
+			productReference = CFED4F681B988C74002694D2 /* HappyTodayFuture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFED4F801B988C74002694D2 /* HappyTodayFutureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFED4F8E1B988C74002694D2 /* Build configuration list for PBXNativeTarget "HappyTodayFutureTests" */;
+			buildPhases = (
+				CFED4F7D1B988C74002694D2 /* Sources */,
+				CFED4F7E1B988C74002694D2 /* Frameworks */,
+				CFED4F7F1B988C74002694D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFED4F831B988C74002694D2 /* PBXTargetDependency */,
+			);
+			name = HappyTodayFutureTests;
+			productName = HappyTodayFutureTests;
+			productReference = CFED4F811B988C74002694D2 /* HappyTodayFutureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFED4F601B988C73002694D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Christina;
+				TargetAttributes = {
+					CFED4F671B988C74002694D2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CFED4F801B988C74002694D2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CFED4F671B988C74002694D2;
+					};
+				};
+			};
+			buildConfigurationList = CFED4F631B988C73002694D2 /* Build configuration list for PBXProject "HappyTodayFuture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFED4F5F1B988C73002694D2;
+			productRefGroup = CFED4F691B988C74002694D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFED4F671B988C74002694D2 /* HappyTodayFuture */,
+				CFED4F801B988C74002694D2 /* HappyTodayFutureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFED4F661B988C74002694D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED4F981B9A1CE2002694D2 /* shooter.atlas in Resources */,
+				CFED4F9B1B9C801F002694D2 /* bullet.png in Resources */,
+				CFED4F7C1B988C74002694D2 /* LaunchScreen.xib in Resources */,
+				CFED4F791B988C74002694D2 /* Images.xcassets in Resources */,
+				CFED4FA01B9CCD2E002694D2 /* starball.png in Resources */,
+				CFED4F701B988C74002694D2 /* GameScene.sks in Resources */,
+				CFED4F771B988C74002694D2 /* Main.storyboard in Resources */,
+				CFED4F941B9897C0002694D2 /* ShooterScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED4F7F1B988C74002694D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFED4F641B988C74002694D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED4F721B988C74002694D2 /* GameScene.swift in Sources */,
+				CFED4F741B988C74002694D2 /* GameViewController.swift in Sources */,
+				CFED4F6E1B988C74002694D2 /* AppDelegate.swift in Sources */,
+				CFED4F921B989739002694D2 /* ShooterScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFED4F7D1B988C74002694D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFED4F881B988C74002694D2 /* HappyTodayFutureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFED4F831B988C74002694D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFED4F671B988C74002694D2 /* HappyTodayFuture */;
+			targetProxy = CFED4F821B988C74002694D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFED4F751B988C74002694D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFED4F761B988C74002694D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFED4F7A1B988C74002694D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFED4F7B1B988C74002694D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFED4F891B988C74002694D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFED4F8A1B988C74002694D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFED4F8C1B988C74002694D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyTodayFuture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFED4F8D1B988C74002694D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyTodayFuture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFED4F8F1B988C74002694D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyTodayFutureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTodayFuture.app/HappyTodayFuture";
+			};
+			name = Debug;
+		};
+		CFED4F901B988C74002694D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyTodayFutureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTodayFuture.app/HappyTodayFuture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFED4F631B988C73002694D2 /* Build configuration list for PBXProject "HappyTodayFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED4F891B988C74002694D2 /* Debug */,
+				CFED4F8A1B988C74002694D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFED4F8B1B988C74002694D2 /* Build configuration list for PBXNativeTarget "HappyTodayFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED4F8C1B988C74002694D2 /* Debug */,
+				CFED4F8D1B988C74002694D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFED4F8E1B988C74002694D2 /* Build configuration list for PBXNativeTarget "HappyTodayFutureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFED4F8F1B988C74002694D2 /* Debug */,
+				CFED4F901B988C74002694D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFED4F601B988C73002694D2 /* Project object */;
+}
